@@ -1,0 +1,37 @@
+{
+  "name": "projeto-login",
+  "version": "1.0.0",
+  "description": "teste pratico para Fiança Rapida",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "jest test"
+  },
+  "keywords": [
+    "login",
+    "token",
+    "test",
+    "node.js"
+  ],
+  "author": "Felipe Friedrich Santos",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "deep-email-validator": "^0.1.21",
+    "dotenv": "^16.0.3",
+    "email-generator": "^1.0.1",
+    "express": "^4.18.2",
+    "install": "^0.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "npm": "^8.19.2",
+    "pg": "^8.8.0",
+    "sequelize": "^6.25.3"
+  },
+  "devDependencies": {
+    "jest": "^29.2.0",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.3.0",
+    "ts-jest": "^29.0.3"
+  }
+}
